@@ -1,0 +1,11 @@
+{
+  "rules": {
+    "orders":{
+    ".read": "auth!=null ",  // 2022-4-30
+    ".write": "auth!=null",  // 2022-4-30
+      ".indexOn": ["userId"]
+}
+    
+    
+  }
+}
